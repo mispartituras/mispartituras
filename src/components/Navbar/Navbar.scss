@@ -1,0 +1,56 @@
+@import "../../config";
+
+.navbar {
+  display: flex;
+  padding: 5px;
+  .navbar-logo{
+    font-family: 'Megrim', cursive;
+    font-size: 2.5rem;
+    color: #08B9B8;
+  }
+  .nav-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-100%);
+    background-color: $primary-color;
+    background-image: url("../../media/img/paper-menu-background.jpg");
+    background-blend-mode: color-burn;
+    @include transform-slide(500ms);
+    ul {
+      margin: auto;
+    }
+    li {
+      list-style: none;
+      margin: 20px 0;
+    }
+    a {
+      font-size: 3rem;
+      text-align: center;
+      color: $white-color;
+    }
+  }
+  .burger-button {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    cursor: pointer;
+    span {
+      display: inline-block;
+      height: 2px;
+      width: 30px;
+      background-color: $white-color;
+      border-radius: 5px;
+      margin: 3px 0;
+      &:last-of-type {
+        width: 20px;
+      }
+    }
+  } 
+}
