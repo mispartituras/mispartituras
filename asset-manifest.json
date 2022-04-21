@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mispartituras/static/css/main.7e39bf58.css",
-    "main.js": "/mispartituras/static/js/main.9b52431f.js",
+    "main.js": "/mispartituras/static/js/main.d7a35e9a.js",
     "static/js/787.51d3cb5e.chunk.js": "/mispartituras/static/js/787.51d3cb5e.chunk.js",
     "static/media/body-bockground.svg": "/mispartituras/static/media/body-bockground.be0639c0b145d815d9f3.svg",
     "static/media/michael-photo.png": "/mispartituras/static/media/michael-photo.319be3bb5ed709267bf7.png",
@@ -9,11 +9,11 @@
     "static/media/flute.png": "/mispartituras/static/media/flute.50cdf311ef1e8331ed4a.png",
     "index.html": "/mispartituras/index.html",
     "main.7e39bf58.css.map": "/mispartituras/static/css/main.7e39bf58.css.map",
-    "main.9b52431f.js.map": "/mispartituras/static/js/main.9b52431f.js.map",
+    "main.d7a35e9a.js.map": "/mispartituras/static/js/main.d7a35e9a.js.map",
     "787.51d3cb5e.chunk.js.map": "/mispartituras/static/js/787.51d3cb5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e39bf58.css",
-    "static/js/main.9b52431f.js"
+    "static/js/main.d7a35e9a.js"
   ]
 }
