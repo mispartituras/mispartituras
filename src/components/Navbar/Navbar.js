@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const menuStyles = {
@@ -29,16 +30,24 @@ export default function Navbar() {
       <nav className="nav-list" style={styles}>
         <ul>
           <li className="nav-item">
-            <a>Inicio</a>
+            <Link to="/mispartituras" onClick={handleClick}>
+              Inicio
+            </Link>
           </li>
           <li className="nav-item">
-            <a>Nosotros</a>
+            <Link to="/nosotros" onClick={handleClick}>
+              Nosotros
+            </Link>
           </li>
           <li className="nav-item">
-            <a>Buscar</a>
+            <Link to="/buscar" onClick={handleClick}>
+              Buscar
+            </Link>
           </li>
           <li className="nav-item">
-            <a>Contacto</a>
+            <Link to="/contacto" onClick={handleClick}>
+              Contacto
+            </Link>
           </li>
         </ul>
       </nav>

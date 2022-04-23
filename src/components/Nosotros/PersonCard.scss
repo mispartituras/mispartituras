@@ -1,0 +1,15 @@
+@import "../../config";
+
+.person-card {
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  margin: 0 auto;
+  img {
+    margin-bottom: 10px;
+  }
+  .person-info {
+    color: $white-color;
+    text-align: center;
+  }
+}

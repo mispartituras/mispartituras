@@ -1,0 +1,20 @@
+@import "../../config";
+
+#nosotros {
+  margin-top: $nav-height;
+  display: flex;
+  flex-direction: column;
+  color: $white-color;
+  .people {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    
+  }
+  .about-nosotros {
+    color: $white-color;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+}

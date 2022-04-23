@@ -1,6 +1,8 @@
 /* Variable */
 $primary-color: #014652;
-$white-color: white;
+$white-color: #efefef;
+$logo-color: #08B9B8;
+$nav-height: 55px;
 
 /* Mixins */
 
@@ -11,6 +13,8 @@ $white-color: white;
 /* Base */
 html {
   font-size: 1rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 * {
@@ -21,11 +25,11 @@ html {
 
 body {
   min-height: 100vh;
-  background: url("./media/img/body-bockground.svg"), linear-gradient($primary-color, white);
-
+  background: url("./media/img/body-bockground.svg"), $primary-color;
+  color: $white-color;
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: center top;
+  background-position: center;
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Montserrat', sans-serif;
@@ -34,4 +38,19 @@ body {
 a {
   text-decoration: none;
   color: unset;
+}
+
+button {
+  color: $primary-color;
+}
+
+.container {
+  padding: 10px 10px;
+  margin: 0;
+
+}
+
+.section-title {
+  font-size: 2rem;
+  margin: 0 auto;
 }
