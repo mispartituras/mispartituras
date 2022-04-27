@@ -12,7 +12,7 @@ export default function Buscar() {
     page === "filter" ? urlOption = instrument.toLowerCase(): urlOption = ""
     setDisplay(page);
     setInstrument(instrument);
-    window.history.replaceState(null, instrument, `/buscar/${urlOption}`)
+    window.history.pushState(null, null, `/buscar/${urlOption}`)
   }
 
   return (

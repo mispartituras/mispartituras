@@ -24,13 +24,11 @@ export default function Navbar() {
   }
   return (
     <header className="navbar">
-      <a href="#" className="navbar-logo">
-        MisPartituras
-      </a>
+        <Link className="navbar-logo" to="/">MisPartituras</Link>
       <nav className="nav-list" style={styles}>
         <ul>
           <li className="nav-item">
-            <Link to="/mispartituras" onClick={handleClick}>
+            <Link to="/" onClick={handleClick}>
               Inicio
             </Link>
           </li>
