@@ -8,9 +8,9 @@ import Buscar from "./components/Buscar/Buscar.js";
 function App() {
   return (
     <div className="App">
-      <Navbar />  
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/mispartituras" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/buscar" element={<Buscar />} />

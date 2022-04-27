@@ -21,7 +21,7 @@ function Filter(props) {
   myList = data.map((item, index) => {
     let color = "";
     //Select the color linked to "Nivel"
-    switch (item[3]) {
+    switch (item[4]) {
       case "Básico":
         color = "#d4ffb3";
         break;
@@ -36,9 +36,9 @@ function Filter(props) {
       backgroundColor: color,
     };
     return (
-      <div key={index} className="filter-item" style={styles}>
-        <p className="filter-piece">{item[0]}</p>
-        <p className="filter-composer">{item[1]}</p>
+      <div key={item[0]} className="filter-item" style={styles}>
+        <p className="filter-piece">{item[1]}</p>
+        <p className="filter-composer">{item[2]}</p>
       </div>
     );
   });
